@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    display: flex;
+    
+    list-style-type: none;
+}
+ul li a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
