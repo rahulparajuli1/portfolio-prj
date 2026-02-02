@@ -54,7 +54,9 @@ button{
     /* width: 100px; */
     padding: 10px 35px;
 }
-
+button:hover{
+    background-color: rgba(13, 55, 147, 0.758);
+}
   /* About section   */
 
 .about-img img{
@@ -102,11 +104,23 @@ hr{
 .describe{
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 .skill-img img{
      width: 200px;
 }
 
+.cont{
+    text-align: center;
+   
+    margin-top: 50px;
+    color: blue;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
 footer{
     text-align: center;
     align-content: center;
